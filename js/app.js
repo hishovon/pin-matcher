@@ -1,3 +1,7 @@
+
+// random number generate...........................>>>>>>>
+
+
 function getPin(){
     const pin = generatePin();
     const pinString = pin + '';
@@ -28,7 +32,7 @@ displayPinField.value=pin;
 
 })
 
-
+// right side input work start ......>>>>>>>>>>
 
 document.getElementById('calculator').addEventListener('click', function(event){
 
